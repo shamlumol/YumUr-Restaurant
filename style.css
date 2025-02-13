@@ -1,0 +1,257 @@
+body {
+    font-family: "IBM Plex Mono", serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav*/
+.navbar {
+    padding: 1px 0;
+}
+
+.navbar-brand, .ymur {
+    font-family: "Pacifico", cursive;
+}
+
+
+
+/* Hero */
+#hero {
+    height: 100vh;
+    background-image: url('/images/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#hero .lead {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Delivery Service*/
+h4 {
+    font-family: "Ephesis", serif;
+}
+
+h3 {
+    font-family: "Raleway", serif;
+}
+
+.card-del {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-del img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-del:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+
+
+h1 {
+    font-family: "Kaushan Script", serif;
+
+}
+
+.prlx-2,
+.prlx-3,
+.prlx-4 {
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.prlx-2 {
+   
+    background-image: url('https://res.cloudinary.com/tf-lab/image/upload/restaurant/0f068d17-6e56-4dbb-b8d8-4f89e2137b5f/b23591f7-8ce6-4e1d-bc29-7b14a58088c1.jpg');
+}
+
+/* menu */
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.menu-item img {
+    width: 140px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+    border: 2px solid #ddd;
+}
+
+.menu-text h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-text .price {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.menu-text p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 5px;
+}
+
+.menu-btn {
+    background-color: transparent;
+    border: 1px solid rgb(231, 183, 10);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: rgb(231, 183, 10);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.menu-btn:hover {
+    background-color: rgb(231, 183, 10);
+    
+    color: white;
+}
+
+
+
+.prlx-3 {
+    background-image: url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?cs=srgb&dl=pexels-chanwalrus-958545.jpg&fm=jpg');
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+.carousel-inner {
+    max-width: 800px;
+    margin: auto;
+}
+.testimonial-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.carousel-caption {
+    position: static;
+    color: white;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+/* about */
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list li {
+    font-size: 0.9rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-list li:hover {
+    color: rgb(231, 183, 10);
+}
+
+.vertical-line {
+    width: 3px;
+    height: 100%;
+    background-color:rgb(231, 183, 10);
+    margin: auto;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #222;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 0.95rem;
+    color: #444;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.offer-image {
+    width: 100%;
+    max-width: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* TESTIMONI */
+
+.prlx-4 {
+    background-image: url('https://www.8ways.ch/application/files/9415/0874/4507/restaurant_1.jpeg');
+}
+
+
+.plx-in {
+    padding: 10% 0;
+}
+
+
+
+/* Contact Section */
+#contact {
+    padding: 100px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
