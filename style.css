@@ -1,8 +1,12 @@
-body {
+*{
     font-family: "IBM Plex Mono", serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
+
+
 
 /* Nav*/
 .navbar {
